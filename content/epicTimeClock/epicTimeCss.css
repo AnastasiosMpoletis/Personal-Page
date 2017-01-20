@@ -1,0 +1,198 @@
+@font-face {
+ font-family: 'assassinfont';
+ src: url("fonts/acfont.woff2") format("woff2");
+}
+
+@font-face {
+ font-family: 'godofwarfont';
+ src: url("fonts/gowfont.woff2") format("woff2");
+}
+
+@font-face {
+ font-family: 'popfont';
+ src: url("fonts/popfont.woff2") format("woff2");
+}
+
+@font-face {
+ font-family: 'thewitcherfont';
+ src: url("fonts/twfont.woff2") format("woff2");
+}
+
+.switch {
+ position: relative;
+ display: inline-block;
+ width: 5vw;
+ height: 5.2vh; 
+}
+
+.switch input { 
+ display: none;
+}
+
+.slider {
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #ccc;
+ -webkit-transition: .4s;
+ transition: .4s;
+ box-shadow: -0.1vw 0.1vh 0.8vmin #000000, 0.1vw -0.1vh 0.8vmin #000000;
+}
+
+.slider:before {
+ position: absolute;
+ content: "";
+ height: 4vh;
+ width: 2vw;
+ left: 0.5vw;
+ bottom: 0.7vh;
+ background-color: white;
+ -webkit-transition: .4s;
+ transition: .4s;
+}
+
+input:checked + .slider {
+ background-color: #333333;
+}
+
+input:focus + .slider {
+ box-shadow: 0 0 0.5vmin #2196F3;  
+}
+
+input:checked + .slider:before {
+ -webkit-transform: translateX(2vw);
+ -ms-transform: translateX(2vw);
+ transform: translateX(2vw);
+}
+
+.slider.round {
+ border-radius: 10vmin;
+}
+
+.slider.round:before {
+ border-radius: 50%;
+}
+
+.muteBar {
+ font-family: assassinfont, Verdana, Tahoma;
+ font-size: 2vw;
+ letter-spacing: 0.3vw;
+ color: white;
+ text-shadow: -0.2vw 0.2vh 1vmin #000000, 0.2vw -0.2vh 1vmin #000000;
+ text-decoration: none; 
+ text-align: center; 
+ user-select: none;
+ margin-top: 1vh;
+}
+
+ /* Popover */
+.popover { 
+ max-width: 50vw;
+ white-space: pre-line;
+ text-align: center;   
+}
+
+/* Popover Body */
+.popover-content {
+ background-color: #333333;
+ font-family: assassinfont;
+ font-size: 0.9vw;  
+}
+
+/* Popover Arrow */
+.arrow {
+ border-color: transparent;
+ border-style: solid; 
+}
+
+.info {
+ cursor: help; 
+}
+
+.glyphicon-info-sign {
+ font-size: 1.5vw;
+ text-shadow: -0.2vw 0.2vh 1vmin #000000, 0.2vw -0.2vh 1vmin #000000; 
+}
+
+footer {
+ font-family: assassinfont, Verdana, Tahoma;
+ font-size: 1vw;
+ letter-spacing: 0.2vw;
+ text-align: center; 
+ color: white;
+ text-shadow: -0.2vw 0.2vh 1vmin #000000, 0.2vw -0.2vh 1vmin #000000;
+ text-decoration: none;
+ user-select: none;
+ margin-top: 3vh;
+}
+
+footer em {
+ color: white;
+}
+
+.btn-circle:active {
+ -webkit-transform: scale(0.98);
+ -ms-transform: scale(0.98);
+ transform: scale(0.98);
+}
+
+body {
+ background-image: url("backgrounds/backgroundImage.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+ background-size: 100% auto;
+ -webkit-transition: background-image 0.5s ease-in-out;
+ transition: background-image 0.5s ease-in-out; 
+}
+
+.clock {
+ font-family: Verdana, Tahoma;
+ font-size: 6vw;
+ color: white;
+ text-decoration: none;
+ text-align: center; 
+ align-items: center;
+ word-spacing: 1vw;
+ letter-spacing: 1vw;
+ text-shadow: -0.2vw 0.2vh 1vmin #000000, 0.2vw -0.2vh 1vmin #000000;
+ user-select: none; 
+ -webkit-transition: all 0.2s ease-out;
+ -moz-transition: all 0.2s ease;
+ -o-transition: all 0.2s ease;
+ -ms-transition: all 0.2s ease;
+ white-space: nowrap;
+ overflow: hidden;
+ height: 20vh;
+ margin-top: 4vh;
+ margin-bottom: 4vh;
+}
+
+.centerize {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.row {
+ margin: 0 auto;
+}
+
+.btn-circle {
+ background-color: Transparent;
+ background-repeat: no-repeat;
+ border: none;
+ cursor: pointer;
+ overflow: hidden;
+ outline: none;
+}
+
+.btn-circle  img{ 
+ width: 15vw;
+ height: 28vh;
+ max-height: 25vh;
+ max-width: 15vw;
+}
