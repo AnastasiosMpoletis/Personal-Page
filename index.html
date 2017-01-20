@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Anastasios Mpoletis</title>
+  <link rel="icon" href="content/amContent/images/profile/AnastasiosMpoletisIcon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- CSS include -->
+  <link rel="stylesheet" type="text/css" href="content/amContent/anastasiosMpoletiscss.css">
+  <!-- Font include -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <!-- JavaScript include -->
+  <script src="content/amContent/anastasiosMpoletisjs.js" defer></script>
+ </head>
+ 
+ <body id="index" data-spy="scroll" data-target=".navbar" data-offset="60">
+ 
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container-fluid navContainer">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>                        
+       </button>
+       <a class="navbar-brand" href="#index">Home</a>
+     </div>     
+     <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="#aboutme">About Me</a></li>
+         <li><a href="#cv">CV</a></li>
+         <li><a href="#education">Education</a></li>
+         <li><a href="#experience">Experience</a></li>
+         <li><a href="#portfolio">Portfolio</a></li>
+         <li><a href="#contactme">Contact Me</a></li>
+       </ul>
+     </div>
+   </div>
+  </nav>
+  <!-- End of navigation bar -->
+ 
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center">
+   <img id="profilePhoto" src="content/amContent/images/profile/AnastasiosMpoletis.jpg" class="img-circle img-responsive boxShadowEffect">
+   <h1>Anastasios Mpoletis</h1>
+   <p>High Potential Front-End Developer</p>
+  </div>
+  
+  <!-- About me -->
+  <div id="aboutme" class="container-fluid partContainer">
+   <div class="row">
+   
+    <div class="col-lg-6 innerLinks">
+     <h2>About me</h2>
+     <p>I am an Informatics/Computer Science graduate from Greece and a promising <strong>Front-End Developer</strong> 
+     looking for a job in Europe. <br/><br/>
+     You can check this website along with my <a href="#portfolio">portfolio</a> 
+     and <a href="#cv">cv</a> to get to know me better.<br/><br/>
+     If you are interested in hiring me, you can just <a href="#contactme">contact me</a>.
+     </p><br/><br/>
+   
+     <!-- LinkedIn button -->     
+     <div class="row centerize"> 
+      <a id="linkedInButton" href="https://gr.linkedin.com/in/anastasios-mpoletis" class="btn btn-lg buttonHover" target="_blank" role="button">
+       <div class="row">
+         <div class="col-lg-2 centerize">
+          <img id="linkedInIcon" src="content/amContent/images/linkedinicon.ico">
+         </div>
+         <div class="col-lg-10 centerize">
+          <h3>Check out my LinkedIn profile</h3>
+         </div>
+        </div> 
+      </a>
+     </div>          
+    </div>    
+    
+    <div class="col-lg-6 centerize">
+     <img id="greekFlag" src="content/amContent/images/greekflag.jpeg">
+    </div>
+    
+   </div>
+  </div>
+  <!-- End of About me -->
+  <hr class="hrContainer partContainer"/>
+  
+  <!-- CV -->
+  <div id="cv" class="container-fluid partContainer">
+   <div class="row">
+   
+    <div class="col-lg-6 centerize">
+     <img src="content/amContent/images/cv.png">
+    </div>
+    
+    <div class="col-lg-6 centerize">
+     <h2>CV</h2>
+     <button id="cvButton" data-toggle="collapse" data-target="#demo" class="btn btn-lg boxShadowEffect"><h3>Take a look at my CV-Resume</h3>
+     <i class="glyphicon glyphicon-large glyphicon-circle-arrow-down"></i></button>
+     
+      <div id="demo" class="collapse centerize">        
+        <!-- PDF display -->
+        <br/>
+        <object id="pdfDisplay" data="content/amContent/cv/AnastasiosMpoletisCV.pdf" type="application/pdf">
+         <embed src="content/amContent/cv/AnastasiosMpoletisCV.pdf">This browser does not support PDFs. <br/>Please download the PDF to view it: <br/>
+          <a href="content/amContent/cv/AnastasiosMpoletisCV.pdf">Download PDF</a>.</p>
+         </embed>
+        </object>
+      </div>
+      
+    </div>
+   </div>
+  </div>
+  <!-- End of CV -->
+  <hr class="hrContainer partContainer"/>
+  
+  <!-- Education -->
+  <div id="education" class="container-fluid partContainer">
+   <div class="row">
+    <div class="col-lg-6">
+     <h2>Education</h2>
+     <h3>Aristotle University of Thessaloniki (2008-2015)</h3>
+     <p>Bachelor's Degree in Informatics, School of Informatics, Faculty of Sciences<br/>
+     <i>Activities: Information and Communication Technologies in Education</i></p> 
+    </div>
+    <div class="col-lg-6 centerize">
+     <br/><img src="content/amContent/images/auth logo.gif" alt="Aristotle University of Thessaloniki">
+    </div>
+   </div>
+  </div>
+  <!-- End of education -->
+  <hr class="hrContainer partContainer"/>
+  
+  <!-- Experience -->
+  <div id="experience" class="container-fluid text-center partContainer">
+   <h2>Experience</h2>
+   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+   
+    <ol class="carousel-indicators">
+     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+     <li data-target="#myCarousel" data-slide-to="1"></li>
+     <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol> 
+    
+    <div class="carousel-inner" role="listbox">    
+    
+     <div class="item active">
+      <div>
+       <img src="content/amContent/images/experience/hellenicarmy logo.gif" alt="Hellenic Army">
+       <h4>System Administrator (08/2015 - 04/2016)<br/>Hellenic Army</h4>
+      </div> 
+     </div>
+     
+     <div class="item">
+      <div>
+       <img src="content/amContent/images/experience/googledeveloper logo.png" alt="Google Developer">
+       <h4>Freelance Android Developer (04/2014 - 07/2014)<br/>Google</h4>
+      </div>
+     </div>
+      
+     <div class="item">
+      <div>
+       <img src="content/amContent/images/auth logo.gif" alt="Aristotle University of Thessaloniki">
+       <h4>Assistant Administrator (10/2011 - 08/2013)<br/>Aristotle University Of Thessaloniki</h4>
+      </div> 
+     </div>     
+    </div>
+    
+    <!-- Previous carousel button -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+    </a> 
+    
+    <!-- Next carousel button -->
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+    </a> 
+     
+   </div>
+  </div>
+  <!-- End of experience -->
+  <hr class="hrContainer partContainer"/>
+  
+  <!-- Portfolio -->
+  <div id="portfolio" class="container-fluid partContainer">
+   <h2>Portfolio</h2><br/>
+   <!-- Webpages -->
+   <h3>Webpages</h3><br/>
+   <div class="row centerize webpageTitleColor">
+   
+     <!-- Anastasios Mpoletis webpage -->
+     <a href="#" class="btn slideanim thumbButton boxShadowEffect" target="_blank" role="button">
+      <div class="row">
+       <div class="col-lg-12 centerize">
+        <img src="content/amContent/images/thumbnails/mySiteThumbnail.jpg" class="img-thumbnail boxShadowEffect">
+        <h4>Anastasios Mpoletis</h4>        
+       </div>       
+      </div>
+      <hr class="hrProjectTitle"/>
+      <div class="row">     
+       <div class="col-lg-12 centerize">
+        <p>My personal webpage. All you need to know about me.</p>
+       </div>
+      </div> 
+     </a>
+     
+     <!-- Epic Time Clock webpage -->
+     <a href="content/epicTimeClock/index.html" class="btn slideanim thumbButton boxShadowEffect" target="_blank" role="button">
+      <div class="row">
+       <div class="col-lg-12 centerize">
+        <img src="content/amContent/images/thumbnails/epicTimeClockThumbnail.jpg" class="img-thumbnail boxShadowEffect">
+        <h4>Epic Time Clock</h4>
+       </div>
+      </div>
+      <hr class="hrProjectTitle"/>
+      <div class="row">      
+       <div class="col-lg-12 centerize">
+       <p>An epic multimedia clock that inspires the hero spirit (Angular.js).</p>
+       <p><strong>Google Chrome recommended</strong></p>
+       </div>
+      </div>      
+     </a> 
+    
+     <!-- Coming soon webpage -->
+     <a class="btn slideanim thumbButton boxShadowEffect" target="_blank" role="button">
+      <div class="row">
+       <div class="col-lg-12 centerize">
+        <img src="content/amContent/images/thumbnails/nAThumbnail.jpg" class="img-thumbnail boxShadowEffect">
+        <h4>N/A</h4>
+       </div> 
+      </div> 
+      <hr class="hrProjectTitle"/>
+      <div class="row">
+       <div class="col-lg-12 centerize"> 
+        <p>React.js, Redux webpage coming soon.</p>
+       </div>
+      </div>
+     </a>
+   </div>
+   <br/><br/><br/>
+   
+   <!-- Projects -->
+   <h3>Projects</h3><br/>
+   <div class="row projectsTitleColor">
+   
+    <!-- Sales project -->
+    <div class="col-lg-4 slideanim centerize">
+     <img src="content/amContent/images/projects/salesProject.png">
+     <h4>Sales (2014)</h4>
+     <p>Android app that calculates the discount of a product.<br/>Programming/design tools used: <br/>
+     MIT App Inventor 2, Adobe Flash CS3, Adobe Photoshop.</p>
+    </div>
+    
+    <!-- Go_Robo! In The City project -->
+    <div class="col-lg-4 slideanim centerize">
+     <img src="content/amContent/images/projects/robotProject.png">
+     <h4>Go_Robo! In The City (2014)</h4>
+     <p>Educational game “Go_Robo! In The City” aimed at cognitive training of the elderly suffering from mild cognitive awareness.<br/>
+     Programming/design tools used: YoYo GameMaker, GameMaker Language, Adobe Flash CS3, Adobe Photoshop.</p>
+    </div>
+    
+    <!-- Go Green Computing project -->
+    <div class="col-lg-4 slideanim centerize">
+     <img src="content/amContent/images/projects/greencomputingProject.jpg">
+     <h4>Go Green Computing (2014)</h4>
+     <p>Educational web software "Go Green Computing" that offers a variety of services regarding Green Computing. <br/>
+     Programming tools used: Joomla, YoYo GameMaker, Articulate Storyline.</p>
+    </div>
+   </div>
+   <br/><br/>
+   
+   <div class="row projectsTitleColor">
+   
+    <!-- Xye System Requirement Specification Document project -->
+    <div class="col-lg-4 slideanim centerize">
+     <img src="content/amContent/images/projects/xyeProject.png">
+     <h4>Xye System Requirement Specification Document (2013)</h4>
+     <p>Writing of System Requirement Specification document for Xye software. <br/>
+     The goal of this project is the introduction, interaction and contribution of the student to the open source community.</p>
+    </div>
+    
+    <!-- Sudoku Platform project -->
+    <div class="col-lg-4 slideanim centerize">
+     <img src="content/amContent/images/projects/sudokuProject.jpg">
+     <h4>Sudoku Platform (2012)</h4><br/>
+     <p>Sudoku game platform including Hyper Sudoku and Duidoku with graphic interface,documentation and UML. <br/>
+     Progamming language: Java.</p>
+    </div>
+    
+    <!-- E-Government Website project -->
+    <div class="col-lg-4 slideanim centerize">
+     <img src="content/amContent/images/projects/phpProject.jpg">
+     <h4>E-Government Website (2012)</h4>
+     <p>E-Government website offering basic eGovernment services and information in a municipality level.<br/>
+     Programming language used: PHP. </p>
+    </div>
+   </div>
+  </div>
+  <!-- End of portfolio -->   
+  <hr class="hrContainer partContainer"/>
+  
+  <!-- Contact me -->
+  <div id="contactme" class="container-fluid centerize partContainer">
+   <h2>Contact me</h2><br/><br/>
+   <div class="row ">
+    <div class="col-lg-12">
+     <p/>You can contact me at: 
+     <p><span class="glyphicon glyphicon-envelope"></span> 
+     <a href="mailto:anastasiosmpoletis@gmail.com?subject=Let's%20hire">anastasiosmpoletis@gmail.com</a></p>
+     <p><span class="glyphicon glyphicon-phone"></span> +30 6998414453</p>
+    </div>
+   </div>
+  </div>
+  <!-- End of Contact me -->
+  <hr class="hrContainer partContainer"/>
+  
+  <!-- Footer -->
+  <footer class="container-fluid text-center partContainer">
+   <a href="#index" title="To Top" data-toggle="tooltip">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+   </a>
+   <p>Created by <a href="#"><em>Anastasios Mpoletis</em></a></p>
+  </footer>
+  <!-- End of footer -->
+    
+ </body>
+</html>
