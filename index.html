@@ -9,11 +9,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- CSS include -->
-  <link rel="stylesheet" type="text/css" href="content/anastasiosMpoletiscss.css">
+  <link rel="stylesheet" type="text/css" href="content/anastasiosMpoletisCss.css">
   <!-- Font include -->
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <!-- JavaScript include -->
-  <script src="content/anastasiosMpoletisjs.js" defer></script>
+  <script src="content/anastasiosMpoletisJs.js" defer></script>
  </head>
  
  <body id="index" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -21,24 +21,24 @@
   <!-- Navigation bar -->
   <nav class="navbar navbar-default navbar-fixed-top">
    <div class="container-fluid navContainer">
-     <div class="navbar-header">
-       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>                        
-       </button>
-       <a class="navbar-brand" href="#index">Home</a>
-     </div>     
-     <div class="collapse navbar-collapse" id="myNavbar">
-       <ul class="nav navbar-nav navbar-right">
-         <li><a href="#aboutme">About Me</a></li>
-         <li><a href="#cv">CV</a></li>
-         <li><a href="#education">Education</a></li>
-         <li><a href="#experience">Experience</a></li>
-         <li><a href="#portfolio">Portfolio</a></li>
-         <li><a href="#contactme">Contact Me</a></li>
-       </ul>
-     </div>
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     <a class="navbar-brand" href="#index">Home</a>
+    </div>     
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="nav navbar-nav navbar-right">
+      <li><a href="#aboutme">About Me</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contactme">Contact Me</a></li>
+     </ul>
+    </div>
    </div>
   </nav>
   <!-- End of navigation bar -->
@@ -52,8 +52,7 @@
   
   <!-- About me -->
   <div id="aboutme" class="container-fluid partContainer">
-   <div class="row">
-   
+   <div class="row">   
     <div class="col-lg-6 innerLinks">
      <h2>About me</h2>
      <p>I am an Informatics/Computer Science graduate from Greece and a promising <strong>Front-End Developer</strong> 
@@ -61,27 +60,25 @@
      You can check this website along with my <a href="#portfolio">portfolio</a> 
      and <a href="#cv">cv</a> to get to know me better.<br/><br/>
      If you are interested in hiring me, you can just <a href="#contactme">contact me</a>.
-     </p><br/><br/>
-   
+     </p>
+     <br/><br/>   
      <!-- LinkedIn button -->     
      <div class="row centerize"> 
       <a id="linkedInButton" href="https://gr.linkedin.com/in/anastasios-mpoletis" class="btn btn-lg buttonHover" target="_blank" role="button">
        <div class="row">
-         <div class="col-lg-2 centerize">
-          <img id="linkedInIcon" src="content/images/linkedinicon.ico">
-         </div>
-         <div class="col-lg-10 centerize">
-          <h3>Check out my LinkedIn profile</h3>
-         </div>
-        </div> 
+        <div class="col-lg-2 centerize">
+         <img id="linkedInIcon" src="content/images/linkedInIcon.ico">
+        </div>
+        <div class="col-lg-10 centerize">
+         <h3>Check out my LinkedIn profile</h3>
+        </div>
+       </div> 
       </a>
      </div>          
-    </div>    
-    
+    </div>        
     <div class="col-lg-6 centerize">
-     <img id="greekFlag" src="content/images/greekflag.jpeg">
-    </div>
-    
+     <img id="greekFlag" src="content/images/greekFlag.jpeg">
+    </div>    
    </div>
   </div>
   <!-- End of About me -->
@@ -89,27 +86,23 @@
   
   <!-- CV -->
   <div id="cv" class="container-fluid partContainer">
-   <div class="row">
-   
+   <div class="row">   
     <div class="col-lg-6 centerize">
      <img src="content/images/cv.png">
-    </div>
-    
+    </div>    
     <div class="col-lg-6 centerize">
      <h2>CV</h2>
      <button id="cvButton" data-toggle="collapse" data-target="#demo" class="btn btn-lg boxShadowEffect"><h3>Take a look at my CV-Resume</h3>
-     <i class="glyphicon glyphicon-large glyphicon-circle-arrow-down"></i></button>
-     
-      <div id="demo" class="collapse centerize">        
-        <!-- PDF display -->
-        <br/>
-        <object id="pdfDisplay" data="content/cv/AnastasiosMpoletisCV.pdf" type="application/pdf">
-         <embed src="content/cv/AnastasiosMpoletisCV.pdf">This browser does not support PDFs. <br/>Please download the PDF to view it: <br/>
-          <a href="content/cv/AnastasiosMpoletisCV.pdf">Download PDF</a>.</p>
-         </embed>
-        </object>
-      </div>
-      
+     <i class="glyphicon glyphicon-large glyphicon-circle-arrow-down"></i></button>     
+     <div id="demo" class="collapse centerize">        
+       <!-- PDF display -->
+       <br/>
+       <object id="pdfDisplay" data="content/cv/AnastasiosMpoletisCV.pdf" type="application/pdf">
+        <embed src="content/cv/AnastasiosMpoletisCV.pdf">This browser does not support PDFs. <br/>Please download the PDF to view it: <br/>
+         <a href="content/cv/AnastasiosMpoletisCV.pdf">Download PDF</a>.</p>
+        </embed>
+       </object>
+     </div>      
     </div>
    </div>
   </div>
@@ -126,7 +119,7 @@
      <i>Activities: Information and Communication Technologies in Education</i></p> 
     </div>
     <div class="col-lg-6 centerize">
-     <br/><img src="content/images/auth logo.gif" alt="Aristotle University of Thessaloniki">
+     <br/><img src="content/images/authLogo.gif" alt="Aristotle University of Thessaloniki">
     </div>
    </div>
   </div>
@@ -148,21 +141,21 @@
     
      <div class="item active">
       <div>
-       <img src="content/images/experience/hellenicarmy logo.gif" alt="Hellenic Army">
+       <img src="content/images/experience/hellenicArmyLogo.gif" alt="Hellenic Army">
        <h4>System Administrator (08/2015 - 04/2016)<br/>Hellenic Army</h4>
       </div> 
      </div>
      
      <div class="item">
       <div>
-       <img src="content/images/experience/googledeveloper logo.png" alt="Google Developer">
+       <img src="content/images/experience/googleDeveloperLogo.png" alt="Google Developer">
        <h4>Freelance Android Developer (04/2014 - 07/2014)<br/>Google</h4>
       </div>
      </div>
       
      <div class="item">
       <div>
-       <img src="content/images/auth logo.gif" alt="Aristotle University of Thessaloniki">
+       <img src="content/images/authLogo.gif" alt="Aristotle University of Thessaloniki">
        <h4>Assistant Administrator (10/2011 - 08/2013)<br/>Aristotle University Of Thessaloniki</h4>
       </div> 
      </div>     
@@ -192,104 +185,104 @@
    <h3>Webpages</h3><br/>
    <div class="row centerize webpageTitleColor">
    
-     <!-- Anastasios Mpoletis webpage -->
-     <div class="slideanim">
-      <!-- Website link button -->
-      <a href="#" class="btn thumbButton boxShadowEffect" target="_blank" role="button">
-       <div class="row">
-        <div class="col-lg-12 centerize">
-         <img src="content/images/thumbnails/mySiteThumbnail.jpg" class="img-thumbnail">
-         <h4>Anastasios Mpoletis</h4>        
-        </div>       
+    <!-- Anastasios Mpoletis webpage -->
+    <div class="slideanim">
+     <!-- Website link button -->
+     <a href="#" class="btn thumbButton boxShadowEffect" target="_blank" role="button">
+      <div class="row">
+       <div class="col-lg-12 centerize">
+        <img src="content/images/thumbnails/mySiteThumbnail.jpg" class="img-thumbnail">
+        <h4>Anastasios Mpoletis</h4>        
+       </div>       
+      </div>
+      <hr class="hrProjectTitle"/>
+      <div class="row">     
+       <div class="col-lg-12 centerize">
+        <p>My personal webpage. All you need to know about me.</p>
        </div>
-       <hr class="hrProjectTitle"/>
-       <div class="row">     
-        <div class="col-lg-12 centerize">
-         <p>My personal webpage. All you need to know about me.</p>
+      </div> 
+     </a>
+     <!-- Github link button -->
+     <div class="row centerize">
+      <a class="btn gitHub buttonHover boxShadowEffect" href="https://github.com/AnastasiosMpoletis/Personal-Page" target="_blank" role="button">
+       <div class="row">
+        <div class="col-lg-2 centerize">
+         <img src="content/images/gitHubLogo.png">
+        </div>
+        <div class="col-lg-10 centerize">
+         <p>View on GitHub</p>
         </div>
        </div> 
       </a>
-      <!-- Github link button -->
-      <div class="row centerize">
-       <a class="btn github buttonHover boxShadowEffect" href="http://www.google.com" target="_blank" role="button">
-        <div class="row">
-          <div class="col-lg-2 centerize">
-           <img src="content/images/githublogo.png">
-          </div>
-          <div class="col-lg-10 centerize">
-           <p>View on GitHub</p>
-          </div>
-         </div> 
-       </a>
-      </div>
      </div>
-     <br/>
+    </div>
+    <br/>
      
-     <!-- Epic Time Clock webpage -->
-     <div class="slideanim">
-      <!-- Website link button -->
-      <a href="http://epictimeclock.webege.com" class="btn thumbButton boxShadowEffect" target="_blank" role="button">
-       <div class="row">
-        <div class="col-lg-12 centerize">
-         <img src="content/images/thumbnails/epicTimeClockThumbnail.jpg" class="img-thumbnail">
-         <h4>Epic Time Clock</h4>        
-        </div>       
-       </div>
-       <hr class="hrProjectTitle"/>
-       <div class="row">     
-        <div class="col-lg-12 centerize">
-         <p>An epic multimedia clock that inspires the hero spirit (Angular.js).</p>
-        </div>
-       </div> 
-      </a>
-      <!-- Github link button -->
-      <div class="row centerize">
-       <a class="btn github buttonHover boxShadowEffect" href="http://www.google.com" target="_blank" role="button">
-        <div class="row">
-          <div class="col-lg-2 centerize">
-           <img src="content/images/githublogo.png">
-          </div>
-          <div class="col-lg-10 centerize">
-           <p>View on GitHub</p>
-          </div>
-         </div> 
-       </a>
+    <!-- Epic Time Clock webpage -->
+    <div class="slideanim">
+     <!-- Website link button -->
+     <a href="http://epictimeclock.webege.com" class="btn thumbButton boxShadowEffect" target="_blank" role="button">
+      <div class="row">
+       <div class="col-lg-12 centerize">
+        <img src="content/images/thumbnails/epicTimeClockThumbnail.jpg" class="img-thumbnail">
+        <h4>Epic Time Clock</h4>        
+       </div>       
       </div>
-     </div>
-     <br/>
-    
-     <!-- Coming soon webpage -->
-     <div class="slideanim">
-      <!-- Website link button -->
-      <a class="btn thumbButton boxShadowEffect" target="_blank" role="button">
-       <div class="row">
-        <div class="col-lg-12 centerize">
-         <img src="content/images/thumbnails/nAThumbnail.jpg" class="img-thumbnail">
-         <h4>N/A</h4>        
-        </div>       
+      <hr class="hrProjectTitle"/>
+      <div class="row">     
+       <div class="col-lg-12 centerize">
+        <p>An epic multimedia clock that inspires the hero spirit (Angular.js).</p>
        </div>
-       <hr class="hrProjectTitle"/>
-       <div class="row">     
-        <div class="col-lg-12 centerize">
-         <p>React.js, Redux webpage coming soon.</p>
+      </div> 
+     </a>
+     <!-- Github link button -->
+     <div class="row centerize">
+      <a class="btn gitHub buttonHover boxShadowEffect" href="https://github.com/AnastasiosMpoletis/Epic-Time-Clock" target="_blank" role="button">
+       <div class="row">
+        <div class="col-lg-2 centerize">
+         <img src="content/images/gitHubLogo.png">
+        </div>
+        <div class="col-lg-10 centerize">
+         <p>View on GitHub</p>
         </div>
        </div> 
       </a>
-      <!-- Github link button -->
-      <!-- <div class="row centerize">
-       <a class="btn github buttonHover boxShadowEffect" href="#" target="_blank" role="button">
-        <div class="row">
-          <div class="col-lg-2 centerize">
-           <img src="content/images/githublogo.png">
-          </div>
-          <div class="col-lg-10 centerize">
-           <p>View on GitHub</p>
-          </div>
-         </div> 
-       </a>
-      </div> -->
-     </div> 
-     <br/>
+     </div>
+    </div>
+    <br/>
+    
+    <!-- Coming soon webpage -->
+    <div class="slideanim">
+     <!-- Website link button -->
+     <a class="btn thumbButton boxShadowEffect" target="_blank" role="button">
+      <div class="row">
+       <div class="col-lg-12 centerize">
+        <img src="content/images/thumbnails/naThumbnail.jpg" class="img-thumbnail">
+        <h4>N/A</h4>        
+       </div>       
+      </div>
+      <hr class="hrProjectTitle"/>
+      <div class="row">     
+       <div class="col-lg-12 centerize">
+        <p>React.js, Redux webpage coming soon.</p>
+       </div>
+      </div> 
+     </a>
+     <!-- Github link button -->
+     <!-- <div class="row centerize">
+      <a class="btn github buttonHover boxShadowEffect" href="#" target="_blank" role="button">
+       <div class="row">
+        <div class="col-lg-2 centerize">
+         <img src="content/images/githublogo.png">
+        </div>
+        <div class="col-lg-10 centerize">
+         <p>View on GitHub</p>
+        </div>
+       </div> 
+      </a>
+     </div> -->
+    </div> 
+    <br/>
      
    </div> 
    <br/><br/><br/>
@@ -316,7 +309,7 @@
     
     <!-- Go Green Computing project -->
     <div class="col-lg-4 slideanim centerize">
-     <img src="content/images/projects/greencomputingProject.jpg">
+     <img src="content/images/projects/greenComputingProject.jpg">
      <h4>Go Green Computing (2014)</h4>
      <p>Educational web software "Go Green Computing" that offers a variety of services regarding Green Computing. <br/>
      Programming tools used: Joomla, YoYo GameMaker, Articulate Storyline.</p>
