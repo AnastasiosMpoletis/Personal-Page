@@ -123,10 +123,6 @@ img {
  transition-timing-function: linear;
 }
 
-.buttonHover:hover, .buttonHover:active {
- /* color: #333333;  */
-}
-
 .buttonHover:hover:before, .buttonHover:active:before {
  -webkit-transform: scale(2);
  -moz-transform: scale(2);
@@ -326,8 +322,7 @@ img {
  width: 100%; 
 }
 
-
-.github {
+.gitHub {
  color: #333333;
  white-space: normal;
  word-wrap: break-word; 
@@ -338,7 +333,7 @@ img {
  border-top: none; 
 }
 
-.github p {
+.gitHub p {
  font-size: 15px;
  padding-top: 4px;
  text-shadow: 1.5px 1.5px 1px #ffffff, 1.5px -1.5px 1px #ffffff, -1.5px 1.5px 1px #ffffff, -1.5px -1.5px 1px #ffffff;
