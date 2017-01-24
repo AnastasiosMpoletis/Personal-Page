@@ -40,12 +40,12 @@ $('#demo').on('hidden.bs.collapse', function () {
 $( window ).resize(function() {
  if($(window).width() < 768) {
   $("#cvButton, #profilePhoto, .thumbButton, .img-thumbnail").removeClass("boxShadowEffect");
-  $("#linkedInButton").removeClass("buttonHover");
-  $("#cvButton, #linkedInButton, .thumbButton").addClass("boxShadow");
+  $("#linkedInButton, .gitHub").removeClass("buttonHover");
+  $("#cvButton, #linkedInButton, .thumbButton, .gitHub").addClass("boxShadow");
  }
  else {
-  $("#cvButton, #linkedInButton, .thumbButton").removeClass("boxShadow");
+  $("#cvButton, #linkedInButton, .thumbButton, .gitHub").removeClass("boxShadow");
   $("#cvButton, #profilePhoto, .thumbButton, .img-thumbnail").addClass("boxShadowEffect"); 
-  $("#linkedInButton").addClass("buttonHover");
+  $("#linkedInButton, .gitHub").addClass("buttonHover");
  }
 });
