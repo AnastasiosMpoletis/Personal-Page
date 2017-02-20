@@ -336,11 +336,20 @@ img {
   color: #333333;
   white-space: normal;
   word-wrap: break-word; 
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
   border-color: #5c5c5c;
   padding-top: 1.5vh;
   width: 190px; 
   margin-bottom: 10px;
+}
+
+.projectLinkButton h4{
+  text-decoration: underline;
+  color: #000000;
+}
+
+.projectLinkButton h4:hover {
+  color: #01A6FF;  
 }
 
 .gitHub p {
