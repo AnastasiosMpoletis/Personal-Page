@@ -1,6 +1,6 @@
 # Personal-Website
 
-Link: http://anastasiosmpoletis.webege.com 
+http://anastasiosmpoletis.webege.com 
 
 My professional-portfolio website containing all the information you need to know about me.
 
