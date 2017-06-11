@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <title>Anastasios Mpoletis</title>
+     <link rel="icon" href="https://dl.dropbox.com/s/8qadu6xfei71ctg/AnastasiosMpoletisIcon.ico?dl=0">
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	 
+     <!-- CSS include -->
+     <link rel="stylesheet" type="text/css" href="anastasiosMpoletisCss.css">
+     <!-- Font include -->
+     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+     <!-- JavaScript include -->
+     <script src="anastasiosMpoletisJs.js" defer></script>
+   </head>
+   
+   <body id="index" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <!-- /Navigation bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid navContainer">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+        <a class="navbar-brand" href="#index">Home</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ./Navigation bar -->
+
+  <!-- /Jumbotron profile -->
+  <div class="jumbotron text-center">
+    <img id="profilePhoto" src="https://dl.dropbox.com/s/f8r9fgx4otp0wuv/AnastasiosMpoletis.jpg?dl=0" class="img-circle img-responsive">
+    <div class="row">
+      <div class="col-lg-12 social-buttons-div">
+        <!-- LinkedIn button -->
+        <a id="linkedin-button" class="btn btn-default social-button" href="https://www.linkedin.com/in/anastasios-mpoletis" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <!-- Facebook button -->
+        <a id="facebook-button" class="btn btn-default social-button" href="https://www.facebook.com/tasos.boletis" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <!-- Github button -->
+        <a id="github-button" class="btn btn-default social-button" href="https://github.com/AnastasiosMpoletis" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+        <!-- CodePen button -->
+        <a id="codepen-button" class="btn btn-default social-button" href="https://codepen.io/AnastasiosMpoletis/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+        <!-- FreeCodeCamp button -->
+        <a id="freecodecamp-button" class="btn btn-default social-button" href="https://www.freecodecamp.com/anastasiosmpoletis" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <h1>Anastasios Mpoletis</h1>
+    <p>Front End Developer</p>
+  </div>
+  <!-- ./Jumbotron profile -->
+
+  <!-- /About me -->
+  <div id="aboutme" class="container-fluid partContainer">
+    <div class="row">
+      <div class="col-lg-6 innerLinks">
+        <h2>About me</h2>
+        <p>I am an Informatics/Computer Science graduate from Greece and a promising <strong>Front End Developer</strong> looking for a job in Europe. <br/><br/> You can check this website along with my <a href="#portfolio">portfolio</a> and <a href="#cv">cv</a>          to get to know me better.<br/><br/> If you are interested in hiring me, you can just <a href="#contactme">contact me</a>.
+        </p>
+        <br/><br/>
+      </div>
+      <div class="col-lg-6 centerize">
+        <img id="greekFlag" src="https://dl.dropbox.com/s/h6w7w3e1p38nsnw/greekFlag.jpeg?dl=0">
+      </div>
+    </div>
+  </div>
+  <!-- ./About me -->
+  
+  <!-- /CV -->
+  <div id="cv" class="container-fluid partContainer">
+    <div class="row">
+      <div class="col-lg-6 centerize">
+        <img src="https://dl.dropbox.com/s/r0w3w0h7blt0fj4/cv.png?dl=0">
+      </div>
+      <div class="col-lg-6 centerize">
+        <h2>CV</h2>
+        <button id="cvButton" data-toggle="collapse" data-target="#demo" class="btn btn-lg"><h3>Take a look at my CV-Resume</h3>
+           <i class="glyphicon glyphicon-large glyphicon-circle-arrow-down"></i></button>
+        <div id="demo" class="collapse centerize">
+          <!-- PDF display -->
+          <br/>
+          <object id="pdfDisplay" data="Anastasios Mpoletis CV.pdf" type="application/pdf">
+               <embed src="Anastasios Mpoletis CV.pdf">This browser does not support PDFs. <br/>Please download the PDF to view it: <br/>
+                 <a href="Anastasios Mpoletis CV.pdf">Download PDF</a>.</p>
+               </embed>
+             </object>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ./CV -->
+
+  <!-- /Education -->
+  <div id="education" class="container-fluid partContainer">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Education</h2>
+        <h3>Aristotle University of Thessaloniki (2008-2015)</h3>
+        <p>Bachelor's Degree in Informatics, School of Informatics, Faculty of Sciences<br/>
+          <i>Activities: Information and Communication Technologies in Education</i></p>
+      </div>
+      <div class="col-lg-6 centerize">
+        <br/><img src="https://dl.dropbox.com/s/e36eunr0c1txj0b/authLogo.gif?dl=0" alt="Aristotle University of Thessaloniki">
+      </div>
+    </div>
+  </div>
+  <!-- ./Education -->
+
+  <!-- /Experience -->
+  <div id="experience" class="container-fluid text-center partContainer">
+    <h2>Experience</h2>
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <div>
+            <img src="https://dl.dropbox.com/s/l4e5hxij9lrb96u/hellenicArmyLogo.gif?dl=0" alt="Hellenic Army">
+            <h4>System Administrator (08/2015 - 04/2016)<br/>Hellenic Army</h4>
+          </div>
+        </div>
+
+        <div class="item">
+          <div>
+            <img src="https://dl.dropbox.com/s/aja9krhdv4en8m1/googleDeveloperLogo.png?dl=0" alt="Google Developer">
+            <h4>Freelance Android Developer (04/2014 - 07/2014)<br/>Google</h4>
+          </div>
+        </div>
+
+        <div class="item">
+          <div>
+            <img src="https://dl.dropbox.com/s/e36eunr0c1txj0b/authLogo.gif?dl=0" alt="Aristotle University of Thessaloniki">
+            <h4>Assistant Administrator (10/2011 - 08/2013)<br/>Aristotle University Of Thessaloniki</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Previous carousel button -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <!-- Next carousel button -->
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </div>
+  <!-- ./Experience -->
+
+  <!-- /Portfolio -->
+  <div id="portfolio" class="container-fluid portfolio-part-container">
+    <h2 class="text-center">Portfolio</h2><br/>
+    <!-- /Portfolio div -->
+    <div class="portfolio-div">
+      <!-- /1st row -->
+      <div class="row">
+        <!-- /My personal website -->
+        <div class="col-md-6 project-div">
+          <div class="cuadro_intro_hover">
+            <img src="https://dl.dropbox.com/s/7cuekq16mxs9i8t/mySiteThumbnail.jpg?dl=0" class="img-responsive" alt="">
+            <div class="caption">
+              <div class="blur"></div>
+              <div class="caption-text">
+                <a class="" href="http://anastasiosmpoletis.webege.com" target="_blank"><h3>Anastasios Mpoletis</h3></a>
+                <!-- CodePen button -->
+                <a id="codepen-button" class="btn btn-default project-button" href="https://codepen.io/AnastasiosMpoletis/full/LLGbGm/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i><span> CodePen</span></a>
+                <!-- Github button -->
+                <a id="github-button" class="btn btn-default project-button" href="#" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i><span> GitHub</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./My personal website -->
+        <!-- /Epic Time Clock -->
+        <div class="col-md-6 project-div">
+          <div class="cuadro_intro_hover">
+            <img src="https://dl.dropbox.com/s/3qh3owwvxm86312/epicTimeClockThumbnail.jpg?dl=0" class="img-responsive" alt="">
+            <div class="caption">
+              <div class="blur"></div>
+              <div class="caption-text">
+                <h3>Epic Time Clock</h3>
+                <!-- CodePen button -->
+                <a id="codepen-button" class="btn btn-default project-button" href="https://codepen.io/AnastasiosMpoletis/full/WjjyNW/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i><span> CodePen</span></a>
+                <!-- Github button -->
+                <a id="github-button" class="btn btn-default project-button" href="https://gist.github.com/AnastasiosMpoletis/d565f68ff8dc8794445fe95cfda99d9a" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i><span> GitHub</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Epic Time Clock -->
+      </div>
+      <!-- ./1st row -->
+      <!-- /2st row -->
+      <div class="row">
+        <!-- /My Photo Gallery-->
+        <div class="col-md-6 project-div">
+          <div class="cuadro_intro_hover centerize">
+            <img src="https://dl.dropbox.com/s/hkyf1vr6rnnhhvg/myPhotoGalleryThumbnail.png?dl=0" class="img-responsive" alt="">
+            <div class="caption">
+              <div class="blur"></div>
+              <div class="caption-text">
+                <h3>My Photo Gallery</h3>
+                <!-- CodePen button -->
+                <a id="codepen-button" class="btn btn-default project-button" href="https://codepen.io/AnastasiosMpoletis/full/XRVQMR/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i><span> CodePen</span></a>
+                <!-- Github button -->
+                <a id="github-button" class="btn btn-default project-button" href="https://gist.github.com/AnastasiosMpoletis/9c201fcd145ab4c042d24d426d2adec5" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i><span> GitHub</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./My Photo Gallery-->
+        <!-- /FreeCodeCamp Tribute Page -->
+        <div class="col-md-6 project-div">
+          <div class="cuadro_intro_hover centerize">
+            <img src="https://dl.dropbox.com/s/8q6fig2yytf5479/tributePageThumbnail.png?dl=0" class="img-responsive" alt="">
+            <div class="caption">
+              <div class="blur"></div>
+              <div class="caption-text">
+                <h3>FreeCodeCamp Tribute Page</h3>
+                <!-- CodePen button -->
+                <a id="codepen-button" class="btn btn-default project-button" href="https://codepen.io/AnastasiosMpoletis/full/MmZBrg/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i><span> CodePen</span></a>
+                <!-- Github button -->
+                <a id="github-button" class="btn btn-default project-button" href="https://gist.github.com/AnastasiosMpoletis/803ca9ca330184a322554b709d847c82" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i><span> GitHub</span></a>             
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./FreeCodeCamp Tribute Page -->
+      </div>
+      <!-- ./2nd row -->
+      <!-- /3rd row -->
+      <div class="row">
+        <!-- /FreeCodeCamp Random Quote Machine -->
+        <div class="col-md-6 project-div">
+          <div class="cuadro_intro_hover centerize">
+            <img src="https://dl.dropbox.com/s/tnqp15yol99ogfl/randomQuoteMachineThumbnail.png?dl=0" class="img-responsive" alt="">
+            <div class="caption">
+              <div class="blur"></div>
+              <div class="caption-text">
+                <h3>FreeCodeCamp Random Quote Machine</h3>
+                <!-- CodePen button -->
+                <a id="codepen-button" class="btn btn-default project-button" href="https://codepen.io/AnastasiosMpoletis/full/EXazEM/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i><span> CodePen</span></a>
+                <!-- Github button -->
+                <a id="github-button" class="btn btn-default project-button" href="https://gist.github.com/AnastasiosMpoletis/5286774da5a5a8da070de290b294df98" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i><span> GitHub</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./FreeCodeCamp Random Quote Machine -->
+        <!-- /Sales -->
+        <div class="col-md-6 project-div">
+          <div class="cuadro_intro_hover centerize">
+            <img src="https://dl.dropbox.com/s/u9v1fv81pxvldmo/salesProject.png?dl=0" class="img-responsive" alt="">
+            <div class="caption">
+              <div class="blur"></div>
+              <div class="caption-text">
+                <h3>Sales (Υπολόγισε την Έκπτωση)</h3>
+                <!-- CodePen button -->
+                <a id="codepen-button" class="btn btn-default project-button" href="https://play.google.com/store/apps/details?id=appinventor.ai_91prince91.Sales" target="_blank"><i class="fa fa-google" aria-hidden="true"></i><span> Google Play</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Sales -->
+      </div>
+      <!-- ./3nd row -->
+    </div>
+    <!-- ./Portfolio div -->
+  </div>
+  <!-- ./Portfolio -->
+
+  <!-- /Contact me -->
+  <div id="contactme" class="container-fluid centerize partContainer">
+    <h2>Contact me</h2><br/><br/>
+    <div class="row ">
+      <div class="col-lg-12">
+        <p/>You can contact me at:
+        <p><span class="glyphicon glyphicon-envelope"></span>
+          <a href="mailto:anastasiosmpoletis@gmail.com?subject=Let's%20hire">anastasiosmpoletis@gmail.com</a></p>
+        <p><span class="glyphicon glyphicon-phone"></span> +306998414453</p>
+      </div>
+    </div>
+  </div>
+  <!-- ./Contact me -->
+  <hr class="hrContainer" />
+
+  <!-- /Footer -->
+  <footer class="container-fluid text-center">
+    <a href="#index" title="To Top" data-toggle="tooltip">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Created by <a href="#"><em>Anastasios Mpoletis</em></a></p>
+  </footer>
+  <!-- ./Footer -->
+
+</body>
+</html>
