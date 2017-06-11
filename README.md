@@ -1,4 +1,4 @@
-# Personal-Page
+# Personal-Website
 
 Link: http://anastasiosmpoletis.webege.com 
 
@@ -6,4 +6,4 @@ My professional-portfolio website containing all the information you need to kno
 
 Programming languages used: HTML, CSS, Bootstrap (mobile responsive), JavaScript, jQuery.
 
-Free hosting by www.000webhost.com
+Free hosting: www.000webhost.com
